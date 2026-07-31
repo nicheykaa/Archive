@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#000;
+    color:#fff;
+    font-family:"VT323",monospace;
+
+}
+
+
+    
+
+/* ===========================
+            CONTENT
+=========================== */
+
+.container{
+
+    width:min(760px,90%);
+
+    margin:110px auto;
+
+}
+
+
+
+.container h1{
+
+    font-size:72px;
+
+    margin-bottom:70px;
+
+}
+
+
+
+.container h2{
+
+    font-size:34px;
+
+    line-height:1.4;
+
+    margin-bottom:70px;
+
+}
+
+
+
+section{
+
+    margin-bottom:80px;
+
+}
+
+
+
+section h3{
+
+    color:#8b8b8b;
+
+    font-size:24px;
+
+    margin-bottom:28px;
+
+}
+
+
+
+section p{
+
+    color:#d6d6d6;
+
+    font-size:22px;
+
+    line-height:1.8;
+
+    margin-bottom:18px;
+
+}
+
+
+
+
+
+
+
+
+/* ===========================
+            MOBILE
+=========================== */
+
+@media(max-width:900px){
+
+.navbar{
+
+    width:calc(100% - 28px);
+
+    padding:16px 18px;
+
+}
+
+.nav-links{
+
+    gap:22px;
+
+}
+
+.nav-links a{
+
+    font-size:17px;
+
+}
+
+.container{
+
+    width:92%;
+
+    margin-top:70px;
+
+}
+
+.container h1{
+
+    font-size:52px;
+
+}
+
+.container h2{
+
+    font-size:28px;
+
+}
+
+section p{
+
+    font-size:20px;
+
+}
+
+.info div{
+
+    flex-direction:column;
+
+    gap:4px;
+
+}
+
+.info span{
+
+    width:auto;
+
+}
+
+}
